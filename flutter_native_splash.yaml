@@ -1,0 +1,22 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#FFFFFF"
+  fullscreen: true
+  image: assets/logo_image_pgn.jpg
+  # branding: assets/logo.png
+  # background_image: assets/logo.png
+
+  android_12:
+    color: "#FFFFFF" #F5F5F5
+    color_dark: "#FFFFFF"
+    fullscreen: true
+    image: assets/logo_image_pgn.jpg
+    # branding: assets/logo.png
+
+  # The android, ios and web parameters can be used to disable generating a splash screen on a given
+  # platform.
+  android: true
+  ios: false
+  web: false
+
+# dart run flutter_native_splash:create --path=flutter_native_splash.yaml

@@ -1,0 +1,31 @@
+import 'dart:convert';
+import 'dart:io';
+
+import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_file_downloader/flutter_file_downloader.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:image_picker/image_picker.dart';
+import 'package:pgnmko_flutter/cubit/checkbox_cubit.dart';
+import 'package:pgnmko_flutter/cubit/cubit.dart';
+import 'package:pgnmko_flutter/models/model.dart';
+import 'package:pgnmko_flutter/shared/shared.dart';
+
+part 'card_widget.dart';
+part 'task_item_widget.dart';
+part 'total_widget.dart';
+part 'textfield_widget.dart';
+part 'textfield_keyboard_type_widget.dart';
+part 'button_widget.dart';
+part 'menu_activity_job_widget.dart';
+part 'task_device_widget.dart';
+part 'result_form_widget.dart';
+part 'checkbox_widget.dart';
+part 'radio_widget.dart';
+part 'custom_tab_bar_widget.dart';
+// part 'tab_bar_widget.dart';
+part 'company_card_widget.dart';
+part 'company_item_widget.dart';
+part 'documentation_item_widget.dart';
+part 'task_preview_item_widget.dart';
+part 'trouble_report_item_widget.dart';
